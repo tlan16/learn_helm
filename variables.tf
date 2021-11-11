@@ -10,6 +10,7 @@ variable "kind_cluster_config_path" {
     default     = "~/.kube/config"
 }
 
+# https://github.com/kubernetes/ingress-nginx/releases
 variable "ingress_nginx_helm_version" {
     type        = string
     description = "The Helm version for the nginx ingress controller."
